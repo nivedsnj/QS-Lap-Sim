@@ -5,3 +5,5 @@ This lap time simulation is useful for establishing full-vehicle trends and desi
 To customize with your own vehicle parameters, simply change the values of entries in the vp dict at the beginning of comp_score.py.
 
 You can also sweep across ranges of different parameters and then plot or otherwise post-process the results. An example is included in example_sweep.py. 
+
+The .tir file parser and Magic Formula solvers are designed for use with a Pacjeka 6.2 model. I fit mine using https://github.com/teasit/magic-formula-tyre-tool.
